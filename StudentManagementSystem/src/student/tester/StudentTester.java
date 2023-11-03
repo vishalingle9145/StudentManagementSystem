@@ -30,7 +30,8 @@ public class StudentTester {
 			while (!exit) {
 
 				System.out.println(
-						"\n1. SIGN UP 2. SIGN IN 3. Change Password 4. Display All\n5. Sort By Email 6. Sort By DOB 7. Unsubscribe 8. EXIT");
+						"\n1. SIGN UP 2. SIGN IN 3. Change Password 4. Display All\n"
+						+ "5. Sort By Email 6. Sort By DOB 7. Unsubscribe 8. EXIT");
 
 				try {
 
@@ -76,6 +77,7 @@ public class StudentTester {
 					case 7:
 						System.out.println("Enter PRN to Unsubscribe");
 						removeCustomer(sc.next(), student);
+
 						break;
 
 					case 8:
